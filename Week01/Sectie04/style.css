@@ -1,0 +1,11 @@
+h1 {
+  font-style: italic;
+  font-weight: 200px;
+  word-spacing: 20px;
+  font-size: 50px;
+}
+
+p {
+  word-spacing: 10px;
+  font-style: italic;
+}
