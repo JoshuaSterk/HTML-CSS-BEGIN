@@ -7,13 +7,11 @@ p {
   background-color: blue;
   background-color: olive;
 }
-div {
-  width: 150px;
-  height: 150px;
-  background-color: LightBlue;
-  float: left;
 
-  overflow: scroll;
+div {
+  width: 1500px;
+  height: 200px;
+  background-color: white;
 }
 
 h1 {
