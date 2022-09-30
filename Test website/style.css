@@ -1,0 +1,73 @@
+/*
+h1 {
+  font-size: 50px;
+  font-style: italic;
+  text-align: center;
+}
+*/
+
+/*
+h2 {
+  font-size: 50px;
+  font-style: italic;
+  text-align: left;
+}
+*/
+/*
+h3 {
+  font-size: 50px;
+  font-style: italic;
+  text-align: right;
+}
+*/
+
+#Natures-Beauty {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-style: italic;
+  font-size: 100px;
+}
+
+#Landscapes {
+  color: rgb(134, 85, 24);
+  font-size: 27px;
+  text-align: center;
+  position: absolute;
+  right: 350px;
+  width: 10%;
+  top: 800px;
+  border: 3px solid rgb(154, 93, 19);
+  background: white;
+  font-style: italic;
+}
+
+#Wild-Life {
+  font-size: 27px;
+  text-align: center;
+  color: rgb(134, 85, 24);
+  position: absolute;
+  left: 400px;
+  width: 8%;
+  top: 800px;
+  border: 3px solid rgb(154, 93, 19);
+  background: white;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+}
+
+h4 {
+  top: 300px;
+  position: absolute;
+  right: 600px;
+  width: 8%;
+}
+
+h5 {
+  top: 300px;
+  position: absolute;
+  left: 200px;
+  width: 8%;
+}
