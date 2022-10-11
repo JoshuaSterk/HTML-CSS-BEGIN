@@ -73,7 +73,7 @@ body {
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 17.4px;
-  margin-left: 15px;
+  margin-left: 0px;
 
   animation-name: moveInRight;
   animation-duration: 2s;
@@ -95,6 +95,18 @@ body {
   0% {
     opacity: 0;
     transform: translateX(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
   }
 
   100% {
@@ -147,6 +159,11 @@ body {
 }
 
 .btn:hover::after {
-  transform: scale(1.5);
+  transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
+}
+
+.btn-animated {
+  animation: moveInBottom 0.5s ease-out 0.75s;
+  animation-fill-mode: backwards;
 }
