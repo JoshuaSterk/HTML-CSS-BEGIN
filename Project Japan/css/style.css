@@ -1,0 +1,4 @@
+.main-section {
+  background-image: linear-gradient(to bottom right, red, black),
+    url(../img/Main.jpg);
+}
