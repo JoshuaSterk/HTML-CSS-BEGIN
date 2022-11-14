@@ -26,7 +26,6 @@ body {
   background-size: cover;
   background-position: top;
   position: relative;
-
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 
@@ -38,15 +37,12 @@ body {
 
 .logo {
   height: 35px;
-  animation: moveInLeft;
-  animation-duration: 2s;
 }
 
 .text-box {
   position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 30%;
+  left: 30%;
   text-align: center;
 }
 
@@ -173,7 +169,7 @@ body {
     url(../img/Background-secondary.webp);
   background-size: cover;
   background-position: top;
-  padding: 35rem 0;
+  padding: 27rem 0;
   margin-top: -17vh;
   clip-path: polygon(0 18%, 100% 0, 100% 100vh, 0 100%);
 }
@@ -195,6 +191,7 @@ body {
   -o-animation: fadeIn 5s;
   -ms-animation: fadeIn 5s;
 }
+
 @keyframes fadeIn {
   0% {
     opacity: 0;

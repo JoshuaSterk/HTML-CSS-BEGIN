@@ -21,7 +21,7 @@ body {
 }
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, #7ed56fd8, #28b485d8),
+  background-image: linear-gradient(to right bottom, #333, #0e1110d8),
     url(../img/Travel-background.jpg);
   background-size: cover;
   background-position: top;
