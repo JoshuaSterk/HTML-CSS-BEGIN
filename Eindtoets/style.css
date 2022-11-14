@@ -1,3 +1,9 @@
+* {
+  margin: 10;
+  padding: 10;
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(255, 255, 255);
 }
@@ -5,7 +11,7 @@ body {
 .main {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   position: absolute;
-  margin-left: 38%;
+  margin-left: 34%;
   margin-top: 300px;
   text-transform: uppercase;
   font-size: 20px;
@@ -31,7 +37,7 @@ body {
 .cropped {
   background-image: url(/img/background-interieur.jpg);
   background-size: 100%;
-  width: 2072px;
+  width: 1645px;
   height: 700px;
 }
 
@@ -40,6 +46,7 @@ body {
   text-align: center;
   word-spacing: 200px;
   padding: 10px;
+  width: 100%;
 }
 
 /* Style the links inside the navigation bar */
@@ -88,7 +95,7 @@ body {
 .column {
   flex: 25%;
   max-width: 25%;
-  padding: 0 70px;
+  padding: 0 67px;
 
   animation: moveInBottom 0.5s ease-out 0.75s;
   animation-fill-mode: backwards;
@@ -144,13 +151,21 @@ textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
+  border-radius: 40px;
+  resize: horizontal;
+
+  animation-name: MoveInBottom;
+  animation-duration: 2s;
 }
 
 label {
   padding: 12px 12px 12px 0;
+  resize: horizontal;
   display: inline-block;
+  color: white;
+
+  animation-name: moveInBottom;
+  animation-duration: 2s;
 }
 
 input[type="submit"] {
@@ -161,6 +176,9 @@ input[type="submit"] {
   border-radius: 4px;
   cursor: pointer;
   float: right;
+
+  animation-name: moveInBottom;
+  animation-duration: 2s;
 }
 
 input[type="submit"]:hover {
@@ -200,4 +218,8 @@ input[type="submit"]:hover {
     width: 100%;
     margin-top: 0;
   }
+}
+
+h3 {
+  color: white;
 }
