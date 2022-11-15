@@ -1,44 +1,50 @@
 * {
-  margin: 10;
-  padding: 10;
+  margin: 5;
+  padding: 5;
   box-sizing: border-box;
 }
 
 body {
-  background-color: rgb(255, 255, 255);
-}
-
-.main {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  position: absolute;
-  margin-left: 34%;
-  margin-top: 300px;
-  text-transform: uppercase;
-  font-size: 20px;
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
   color: rgb(255, 255, 255);
-
-  animation-name: moveInBottom;
-  animation-duration: 2s;
+  padding: 30px;
 }
 
-.text-box {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  position: absolute;
-  margin-left: 0%;
-  margin-top: 20px;
-  text-transform: lowercase;
-  font-size: 10px;
-  color: rgb(0, 0, 0);
+.header {
+  height: 95vh;
+  background-image: url(./img/background-interieur.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+
+.heading-primary {
+  color: #fff;
+  text-transform: uppercase;
+
+  backface-visibility: hidden;
+  margin-top: 60px;
+}
+
+.heading-primary-main {
+  display: block;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 20px;
+  width: 20%;
 
   animation-name: moveInLeft;
   animation-duration: 2s;
 }
 
-.cropped {
-  background-image: url(/img/background-interieur.jpg);
-  background-size: 100%;
-  width: 1645px;
-  height: 700px;
+.text-box {
+  position: absolute;
+  top: 30%;
+  left: 7%;
+  text-align: center;
 }
 
 .topnav {
@@ -107,22 +113,6 @@ body {
   width: 100%;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-
 .column:hover {
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19);
@@ -162,7 +152,7 @@ label {
   padding: 12px 12px 12px 0;
   resize: horizontal;
   display: inline-block;
-  color: white;
+  color: rgb(0, 0, 0);
 
   animation-name: moveInBottom;
   animation-duration: 2s;
@@ -210,16 +200,10 @@ input[type="submit"]:hover {
   clear: both;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .col-25,
-  .col-75,
-  input[type="submit"] {
-    width: 100%;
-    margin-top: 0;
-  }
+h3 {
+  color: rgb(0, 0, 0);
 }
 
-h3 {
-  color: white;
+.backgroundcolor {
+  color: #333;
 }
